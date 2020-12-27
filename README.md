@@ -1,3 +1,3 @@
-# frist-project
+# project
 
-## frist project with mt team
+## project with mt team
