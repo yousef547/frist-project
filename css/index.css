@@ -1,0 +1,27 @@
+
+h1,h2,h3,h4,h5,h6,p{
+    font-family: 'Source Sans Pro', sans-serif;
+}
+li,a,button {
+    font-family: 'Poppins', sans-serif;
+}
+.button-color {
+    color: #fff;
+    background-color: #00c3da;
+}
+nav {
+    box-shadow: 5px 5px 15px 0 rgba(31, 31, 31, 0.07);
+}
+.borders {
+    border-left: 1px solid rgb(151, 151, 151);
+}
+
+.wrapper {
+    background-color: gray;
+    width: 3px;
+    height: 3px;
+}
+.wrapper h1,.wrapper>div{
+    display: none;
+    
+}

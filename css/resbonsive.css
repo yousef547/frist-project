@@ -1,0 +1,114 @@
+
+@media screen and (max-width:586px) {
+   /****************override bootstrap***************/
+   #home .navbar-brand {
+       margin-right: 10rem;
+   }
+   #home .carousel-control-next, #home .carousel-control-prev  {
+    display: none;
+}
+   /*****************resbonsive************************/
+   #home button::after {
+        content: "";
+        position: absolute;
+        top: -16px;
+        width: 0.5px;
+        right: 77px;
+        height: 70px;
+        background-color: #c0c0c0;
+   }
+   .txt-sm-center {
+        text-align: center;
+    }
+    #what_we_do .creative {
+        margin: auto;
+    }
+    #price .featured {
+        transform: scaleY(1.0);
+    }
+    #customer a span {
+        display: none;
+    }
+    #customer .fullwidth {
+        width: 100%;
+    }
+    
+}
+@media screen and (min-width:587px) and (max-width:786px){
+    /****************override bootstrap***************/
+    #home .navbar-brand {
+        margin-right: 15rem;
+    }
+       /*****************resbonsive************************/
+       #home .carousel-control-next, #home .carousel-control-prev  {
+           display: none;
+       }
+    #home button::after {
+        content: "";
+        position: absolute;
+        top: -16px;
+        width: 0.5px;
+        right: 77px;
+        height: 70px;
+        background-color: #c0c0c0;
+   }
+   .txt-sm-center {
+        text-align: center;
+    }
+    #what_we_do .creative {
+        margin: auto;
+    }
+    #price .featured {
+        transform: scaleY(1.0);
+    }
+    #customer a span {
+        display: none;
+    }
+    #customer .fullwidth {
+        width: 100%;
+    }
+}
+@media screen and (min-width:787px) and (max-width:992px) {
+    /****************override bootstrap***************/
+    #home .navbar-brand {
+        margin-right: 25rem;
+    }
+           /*****************resbonsive************************/
+
+           #home button::after {
+            content: "";
+            position: absolute;
+            top: -16px;
+            width: 0.5px;
+            right: 77px;
+            height: 70px;
+            background-color: #c0c0c0;
+       }
+       #home .Previous {    
+        top: 305px;
+        }
+        .txt-sm-center {
+            text-align: center;
+        }
+        #what_we_do .creative {
+            margin: auto;
+        }
+        #price .featured {
+            transform: scaleY(1.0);
+        }
+        #customer a span {
+            display: none;
+        }
+        #customer .fullwidth {
+            width: 100%;
+        }
+}
+@media screen and  (min-width:992px) {
+    .col-md-offset-2 {
+        margin-left: 16.66666667%;
+    }
+    #customer .fullwidth {
+        width: 75%;
+    }
+    
+} 
